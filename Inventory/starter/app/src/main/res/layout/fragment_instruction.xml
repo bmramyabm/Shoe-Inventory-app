@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the Instruction Screen -->
+<!-- Used Relative Layout inorder since there are placed in relative to each other -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".instruction.InstructionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/Instruction_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Instructions"
+            android:textColor="#D81B60"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Instruction_Description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Instruction_TextView"
+            android:padding="30sp"
+            android:text="@string/instruction_note"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Instruction_Description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Instruction_Description1"
+            android:padding="30sp"
+            android:text="@string/Instruction"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/click"
+            style="@style/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Instruction_Description2"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="10sp"
+            android:text="@string/click"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+</layout>
