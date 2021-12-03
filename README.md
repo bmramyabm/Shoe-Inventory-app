@@ -14,7 +14,7 @@ The shoe listing page will show the list of shoes and show a button for adding a
 
 Shoe Store Inventory Application
 
-## Getting Started
+## Getting Started with the Project
 
 In this project, apply skills in building layouts and navigation files by building a Shoe Store app.Build an app with four screens:
 
