@@ -1,6 +1,6 @@
 # README Template
 
-In this project, students will apply their skills in building layouts and navigation files by building a Shoe Store app. They will build an app with four screens:
+In this project, skills in building layouts and navigation files are used to build a Shoe Store app. They will build an app with four screens:
 
 Login
 Onboarding
